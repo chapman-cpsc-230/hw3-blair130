@@ -1,3 +1,13 @@
+"""
+File: turtlepoly
+
+Copyright (c) 2016 Lucas Blair
+
+License: MIT
+
+So, this one is actually pretty legit.  It'll draw a polygon with any number of sides you input with any side legth you input.
+"""    
+
 n_str = raw_input ("How many sides do you want?:")
 n = int(n_str)
 
