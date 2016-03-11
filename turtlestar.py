@@ -1,3 +1,13 @@
+"""
+File: Turtlestar
+
+Copyright (c) 2016 Lucas Blair
+
+License: MIT
+
+This one can draw a star with any odd number of points you input.  
+"""    
+
 n_str = raw_input ("How many points do you want?:")
 n = int(n_str)
 
