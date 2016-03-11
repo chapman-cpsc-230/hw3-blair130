@@ -1,3 +1,13 @@
+"""
+File: Booleans!
+
+Copyright (c) 2016 Lucas Blair
+
+License: MIT
+
+Gonna be honest, booleans confuse me! But I think I got all these right.
+"""    
+
 C = 41                  #not a boolean
 C == 40                 #assignment boolean
 C != 40 and C < 41      #False
