@@ -20,9 +20,16 @@ rico = turtle.Pen()
 
 def draw_a_star(t, num_points, sid_len):
     for i in range(num_points):
-        rico.forward(l)
+        ### MAM: You accidentally refer to the "global" value l instead of the local value sid_len
+        rico.forward(sid_len)
         rico.left(180.0-(180.0/n))
 
+
+### MAM: What's the point of doing a loop here? It is a loop that executes once.
+### So, why not just write
+###
+### draw_a_star(rico, n, 1)
+###
 
 for j in range(1):
     draw_a_star(rico, n, l)
